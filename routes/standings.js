@@ -15,7 +15,7 @@ const options = {
   }
 };
 
-router.get('/standings', (req, res, next) => {
+router.get('/standings', isLoggedIn, (req, res, next) => {
   axios.request(options)
   .then((response) => {
     console.log(response.data);
