@@ -22,6 +22,7 @@ body {
 
 .homepage {
   text-align: center;
+  text-decoration: underline;
 }
 
 .signup-login-background {
