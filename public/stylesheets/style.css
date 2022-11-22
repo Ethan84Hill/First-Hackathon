@@ -6,3 +6,187 @@ body {
 a {
   color: #00B7FF;
 }
+
+body {
+  background-color: rgb(199, 199, 199);
+}
+
+.ufcimage {
+  background-image: url("../images/UFC-Logo.png");
+  padding: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 700px;
+  margin: auto;
+}
+
+.homepage {
+  text-align: center;
+}
+
+.signup-login-background {
+  background-color: red;
+  margin: auto;
+  box-shadow: 6px 4px black;
+  border-radius: 10px;
+  width: 700px;
+}
+
+.loginHeader {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+.emailText {
+  text-align: center;
+  padding: 5px;
+  font-size: 40px;
+  color: white;
+}
+
+.emailEnter {
+  display: flex;
+  justify-content: center;
+}
+
+.passwordText {
+  text-align: center;
+  padding: 5px;
+  font-size: 40px;
+  padding-top: 30px;
+  color: white;
+}
+
+.passwordEnter {
+  display: flex;
+  justify-content: center;
+}
+
+.box-size {
+  width: 500px;
+  height: 30px;
+}
+
+.loginButton {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.buttonText {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.nav-bar {
+  background-color: red;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 6px 4px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-side-nav {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.left-side-nav {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.login {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.signup {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.logout {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.navstandings {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.header {
+  color: white;
+  background-color: red;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 6px 4px black;
+}
+
+.weightClass {
+  color: white;
+  text-align: center;
+}
+
+.rank {
+  color: white;
+}
+
+.name {
+  color: white;
+}
+
+.rankName {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.spacing {
+  padding-left: 10px;
+}
+
+.profileLink {
+  background-color: white;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 6px 4px black;
+  margin-bottom: 10px;
+}
+
+.standings {
+  background-color: red;
+  margin: 20px;
+  padding: auto;
+  margin-bottom: 60px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  float: left;
+  border-radius: 5px;
+  box-shadow: 6px 4px black;
+}

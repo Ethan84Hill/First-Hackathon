@@ -7,7 +7,7 @@ const isLoggedOut = require('../middleware/isLoggedOut')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Weather' });
+  res.render('index', { title: 'UFC' });
 });
 
 router.get('/signup', isLoggedOut, (req, res, next) => {

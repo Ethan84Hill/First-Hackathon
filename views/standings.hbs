@@ -1,0 +1,16 @@
+<h1 class="header">Here's Your UFC Standings</h1>
+
+{{#each foundStandings}}
+<div class="standings">
+    <h2 class="weightClass">{{weightClass}}</h2>
+    {{#each fighters}}
+    <div class="rankName">
+        <p class="rank">{{fighter_ranking}}:</p>
+        <div class="spacing">
+            <p class="name">{{fullName}}</p>
+        </div>
+    </div>
+        <a class="profileLink" href="{{url}}">Fighter Profile</a>
+    {{/each}}
+</div>
+{{/each}}
